@@ -1,3 +1,5 @@
 function onLoad() {
-    alert("function onLoad() called");
+    // this is an example of an alert function
+    //alert("function onLoad() called");
+    document.getElementById("timestamp").innerHTML = Date(); 
 }
